@@ -21,75 +21,55 @@
         <div class="row">
             <!--Inicio Menu lateral-->
             <?php
-                require_once('mLateral.php');
+                require_once('sidebar.php');
             ?>
             <!--Fin Menu lateral-->
 
-            <!--Inicio Cards de servicios-->
-            <div class="col-md ">
-                
-                <div class="row align-items-center mt-5">
-                    <div class="container text-center ">
-                        <div class="card mb-3 " style="height: auto;">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <a href="#" class="btn btn-primary">Contactar</a>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
+            <!--Inicio Cards-->
+            <div class="col-md flex-content">
+
+                <div class="d-flex flex-content flex-wrap justify-content-center">
+
+                    <div class="card flex-item m-4" style="width: 22rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                </div>
 
-                <div class="row align-items-center mt-5">
-                    <div class="container text-center ">
-                        <div class="card mb-3 " style="height: auto;">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <a href="#" class="btn btn-primary">Contactar</a>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="card flex-item m-4" style="width: 22rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                </div>
 
-                <div class="row align-items-center mt-5">
-                    <div class="container text-center ">
-                        <div class="card mb-3 " style="height: auto;">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <a href="#" class="btn btn-primary">Contactar</a>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="card flex-item m-4" style="width: 22rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                </div>
 
+                    <div class="card flex-item m-4" style="width: 22rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <!--Fin Cards de servicios-->
+            <!--Fin Cards-->
+            
         </div>
     </div>
 
