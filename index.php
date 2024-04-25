@@ -19,7 +19,7 @@
       <div class="row">
         <!--Inicio Menu lateral-->
         <?php
-          require_once('mLateral.php');
+          require_once('sidebar.php');
         ?>
         <!--Fin Menu lateral-->
 
