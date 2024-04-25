@@ -48,15 +48,15 @@
                     <form action="#">
                         <div class="input-group mb-2">
                             <span class="input-group-text">
-                                <i class='bx bx-user'></i>
+                                <i class='bx bx-envelope'></i>
                             </span>
-                            <input type="email" class="form-control form-control-lg fs-6" placeholder="Correo">
+                            <input type="text" class="form-control form-control-lg fs-6" id="inemail" name="inemail" placeholder="Correo">
                         </div>
                         <div class="input-group mb-2">
                             <span class="input-group-text">
                                 <i class='bx bx-lock-alt'></i>
                             </span>
-                            <input type="password" class="form-control form-control-lg fs-6" placeholder="Contraseña">
+                            <input type="text" class="form-control form-control-lg fs-6" id="inpassword" name="inpassword" placeholder="Contraseña">
                         </div>
                         <div class="input-group mb-2 d-flex justify-content-between">
                             <div class="form-check">
@@ -67,7 +67,8 @@
                                 <small><a href="#">¿Olvidaste tu contraseña?</a></small>
                             </div>
                         </div>
-                        <button class="btn btn-primary btn-lg w-100 mb-2">Iniciar</button>
+                        <a href="User/ViewUser.html" class="btn btn-primary btn-lg w-100 mb-2">Iniciar usuario</a>
+                        <a href="Admin/ViewAdmin.html" class="btn btn-primary btn-lg w-100 mb-2">Iniciar admin</a>
                     </form>
                     <!--Termina Formulario-->
 
@@ -80,8 +81,6 @@
             </div>
 
         </div>
-
-        <!--Termina Lado Derecho-->
 
     </div>
     
