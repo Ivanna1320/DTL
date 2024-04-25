@@ -1,0 +1,11 @@
+// PATRONES DE COLORES //
+
+//$principal: #a12f2f;
+$second: #00ff00;
+
+//Modificar variables de Bootstrap //
+
+//$primary: $principal;
+$success: $second;
+
+@import "../libs/bootstrap/scss/bootstrap";

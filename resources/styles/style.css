@@ -1,0 +1,14 @@
+/*.container {
+    display: grid;
+    place-items: center; /* Centra tanto horizontal como verticalmente 
+    height: 100vh;
+}*/
+  
+.content {
+    /* Estilos del contenido */
+}
+
+.text-descrip {
+    place-items: center;
+}
+  
