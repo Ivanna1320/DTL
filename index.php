@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DTL</title>
         <link href="resources/scss/styles.css" rel="stylesheet" >
-
+        
+    
     </head>
   <body>
     <!--Navbar-->
