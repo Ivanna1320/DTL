@@ -67,32 +67,72 @@
             <!--Termina Sidebar Admin-->
             
             <!--Inicia main-->
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Dashboard</h1>
-                    <div class="btn-toolbar mb-2 mb-md-0">
-                      <div class="btn-group me-2">
-                        <a type="button" class="btn btn-sm btn-outline-secondary" href="#" style="text-decoration: none;">
-                            Crear 
-                            <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#file-earmark"/></svg>
-                        </a>
-                        <a type="button" class="btn btn-sm btn-outline-secondary" href="#" style="text-decoration: none;">
-                            Exportar 
-                        </a>
-                      </div>
-                      <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle d-flex align-items-center gap-1">
-                        <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#calendar3"/></svg>
-                        This week
-                      </button>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-5">
+                <!--Titulos-->
+                
+                <h2>Crear publicación</h2>
+                <p>Puede agregar servicios y empleos</p>
+
+                <!--Inicia Formulario-->
+
+                <hr class="my-4">
+
+                <h5 class="mb-3">Tipo de publicación</h4>
+
+                <div class="my-3">
+                    <div class="form-check">
+                        <input id="servicio" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="servicio">Servicio</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="empleo" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="empleo">Empleo</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="publicacion" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="publicacion">Publicación</label>
                     </div>
                 </div>
 
-                <h2>Section title</h2>
+                <div class="col-md-9 col-lg-8">
+                    <form class="needs-validation " novalidate>
+                        <div class="col-sm mt-4">
+                            <label for="firstName" class="form-label">Titulo</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Titulo del servicio o empleo" value="" required>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm mt-4">
+                            <label for="lastName" class="form-label">Descripción</label>
+                            <textarea class="form-control" placeholder="Descripción del servicio o empleo" id="floatingTextarea"></textarea>                          
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+                        <div class="row g-3 mt-4">
+                            <div class="col-12">
+                                <label for="importante" class="form-label">Importante<span class="text-body-secondary">(Optional)</span></label>
+                                <input type="text" class="form-control" id="importante" name="importante" placeholder="Notas importantes">
+                            </div>
+                            
+                        </div>
+
+
+                        <hr class="my-4">
+
+                        <button class="w-50 btn btn-primary btn-lg m-3" type="submit">Publicar</button>
+                    </form>
+                </div>
+                <!--Termina Formulario-->
                 
             </main>
             <!--Termina main-->
         </div>
     </div>
+    
     
 </body>
 </html>
