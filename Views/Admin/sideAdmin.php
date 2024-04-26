@@ -85,13 +85,13 @@
                             <li class="nav-item">
                             <a class="nav-link d-flex align-items-center gap-2" href="#" style="text-decoration: none;">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#gear-wide-connected"/></svg>
-                                Settings
+                                Configuración
                             </a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link d-flex align-items-center gap-2" href="#" style="text-decoration: none;">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#door-closed"/></svg>
-                                Sign out
+                                Salir
                             </a>
                             </li>
                         </ul>
