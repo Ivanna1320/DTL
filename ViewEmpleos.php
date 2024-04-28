@@ -15,19 +15,20 @@
     ?>
     <!--Fin Navbar-->
 
-    <h5>Empleos</h5>
+    <div class="text-center" >
+        <h1 class="text-primary mt-5 fw-bold">Empleos</h1>
+    </div>
 
     <!--Inicio Carrusel-->
 
     <!--Fin Carrusel-->
 
 
-    <div class="container text-center bg-secondary mt-5">
+    <div class="container text-center bg-light rounded  mt-5">
         <div class="row">
             <!--Inicio Menu lateral-->
-            <?php
-                require_once('sidebar.php');
-            ?>
+            <!-- ?php -->
+                <!-- require_once('sidebar.php'); -->
             <!--Fin Menu lateral-->
 
             <!--Inicio Cards de servicios-->
@@ -38,7 +39,27 @@
                         <div class="card mb-3 " style="height: auto;">
                             <div class="row g-0 align-items-center">
                                 <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                    <img src="resources/img/presentacion.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title11</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <a href="#" class="btn btn-primary">Contactar</a>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center mt-5">
+                    <div class="container text-center ">
+                        <div class="card mb-3 " style="height: auto;">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="resources/img/presentacion.jpg" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -58,27 +79,7 @@
                         <div class="card mb-3 " style="height: auto;">
                             <div class="row g-0 align-items-center">
                                 <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <a href="#" class="btn btn-primary">Contactar</a>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row align-items-center mt-5">
-                    <div class="container text-center ">
-                        <div class="card mb-3 " style="height: auto;">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                    <img src="resources/img/presentacion.jpg" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">

@@ -14,15 +14,16 @@
         include('navbar.php');
     ?>
     <!--Fin Navbar-->
+    <div class="text-center" >
+        <h1 class="text-primary mt-5 fw-bold">Servicios</h1>
+    </div>
 
-    <h5>Servicios</h5>
-
-    <div class="container text-center bg-secondary mt-5">
+    <div class="container text-center bg-light rounded mt-5">
         <div class="row">
             <!--Inicio Menu lateral-->
-            <?php
-                require_once('sidebar.php');
-            ?>
+            <!-- <?php
+            //     require_once('sidebar.php');
+            // ?> -->
             <!--Fin Menu lateral-->
 
             <!--Inicio Cards-->
