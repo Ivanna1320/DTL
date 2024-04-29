@@ -23,6 +23,19 @@ a:hover {
     align-items: flex-start;
     height: 100vh; 
   }
+
+  .contTitulo {
+  max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007bff;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
   
   .content {
     background-color: #f0f0f0;
@@ -35,10 +48,6 @@ a:hover {
     height: 100vh;
 }*/
   
-.content {
-    /* Estilos del contenido */
-}
-
 .text-descrip {
     place-items: center;
 }
@@ -69,7 +78,6 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
 
 .divider-content-center {
     position:absolute;
@@ -166,3 +174,4 @@ a:hover {
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+}
