@@ -1,3 +1,20 @@
+<?php
+//Seguridad de sesiones en la paginacion
+
+session_start();
+//error_reporting(0);
+// Verifica si la clave "usuario" está definida en el array $_SESSION
+if(isset($_SESSION['usuario'])) {
+  // Si está definida, accede a su valor
+  $usuario = $_SESSION['usuario'];
+  //echo "Bienvenido, $usuario";
+} else {
+  // Si no está definida, muestra un mensaje de error o toma otra acción adecuada
+  echo "No se ha iniciado sesión";
+  die();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head><script src="../../resources/libs/bootstrap/site/static/docs/5.3/assets/js/color-modes.js"></script>

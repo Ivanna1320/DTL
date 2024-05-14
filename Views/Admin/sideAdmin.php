@@ -89,7 +89,7 @@
                             </a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link d-flex align-items-center gap-2" href="#" style="text-decoration: none;">
+                            <a class="nav-link d-flex align-items-center gap-2" href="cerrar_sesion.php" style="text-decoration: none;">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#door-closed"/></svg>
                                 Salir
                             </a>
