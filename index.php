@@ -30,8 +30,17 @@
 
         <div class="col-md">
             <div class="row align-items-center">
-                <div class="col-md text-justify">
-                    La empresa aduanal DTL se destaca por su excelencia en el ámbito de los servicios aduaneros. Con una vasta experiencia en el sector, DTL se especializa en facilitar el comercio internacional al ofrecer soluciones integrales y personalizadas para importadores y exportadores. Desde el despacho aduanero hasta la gestión de trámites y documentación, DTL se compromete a brindar un servicio eficiente, confiable y transparente. Su equipo altamente capacitado y su enfoque centrado en el cliente hacen de DTL la opción ideal para empresas que buscan optimizar sus operaciones comerciales a nivel internacional.
+                <div class="col-md ">
+                    <p class="text-justify">
+                        La empresa aduanal DTL se destaca por su excelencia en el ámbito de los servicios 
+                        aduaneros. Con una vasta experiencia en el sector, DTL se especializa en facilitar 
+                        el comercio internacional al ofrecer soluciones integrales y personalizadas para 
+                        importadores y exportadores. Desde el despacho aduanero hasta la gestión de trámites 
+                        y documentación, DTL se compromete a brindar un servicio eficiente, confiable y 
+                        transparente. Su equipo altamente capacitado y su enfoque centrado en el cliente 
+                        hacen de DTL la opción ideal para empresas que buscan optimizar sus operaciones 
+                        comerciales a nivel internacional.
+                    </p>
                 </div>
 
                 <div class="col-md">
@@ -48,19 +57,26 @@
                     <div class="d-flex w-100 align-items-center justify-content-between">
                         <strong class="mb-1 text-center w-100">Misión</strong>
                     </div>
-                    <div class="col-10 mb-1 small text-center w-100">Ser la empresa líder en servicios aduaneros, reconocida por su excelencia operativa, innovación continua y compromiso con la satisfacción del cliente.</div>
+                    <div class="col-10 mb-1 small text-center w-100 fs-5">
+                        Ser la empresa líder en servicios aduaneros, reconocida por su excelencia 
+                        operativa, innovación continua y compromiso con la satisfacción del cliente.
+                    </div>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action py-3 lh-sm">
                     <div class="d-flex w-100 align-items-center justify-content-between">
                         <strong class="mb-1 text-center w-100">Visión</strong>
                     </div>
-                    <div class="col-10 mb-1 small text-center w-100">Proporcionar servicios aduaneros de calidad superior, asegurando el cumplimiento de las regulaciones internacionales y ofreciendo soluciones integrales que impulsen el éxito de nuestros clientes en el comercio internacional.</div>
+                    <div class="col-10 mb-1 small text-center w-100 fs-5">Proporcionar servicios aduaneros 
+                        de calidad superior, asegurando el cumplimiento de las regulaciones 
+                        internacionales y ofreciendo soluciones integrales que impulsen el éxito de 
+                        nuestros clientes en el comercio internacional.
+                    </div>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action py-3 lh-sm">
                     <div class="d-flex w-100 align-items-center justify-content-between" >
                         <strong class="mb-1 text-center w-100">Valores</strong>
                     </div>
-                    <div class="col-10 mb-1 small text-center w-100">Some placeholder content in a paragraph below the heading and date.</div>
+                    <div class="col-10 mb-1 small text-center w-100 fs-5">Some placeholder content in a paragraph below the heading and date.</div>
                 </a>
             </div>
             
