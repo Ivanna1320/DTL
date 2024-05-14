@@ -1,5 +1,3 @@
-<!--Ventana donde se muestran los servicios: Ivanna-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +30,7 @@
                 <div class="d-flex flex-content flex-wrap justify-content-center">
 
                     <div class="card flex-item m-4" style="width: 22rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="resources/img/presentacion.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -41,7 +39,7 @@
                     </div>
 
                     <div class="card flex-item m-4" style="width: 22rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="resources/img/presentacion.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -50,7 +48,7 @@
                     </div>
 
                     <div class="card flex-item m-4" style="width: 22rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="resources/img/presentacion.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -59,7 +57,7 @@
                     </div>
 
                     <div class="card flex-item m-4" style="width: 22rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="resources/img/presentacion.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -78,7 +76,7 @@
 
     <!--Inicio Footer-->
     <?php
-      include('footer.php');
+        include('footer.php');
     ?>
     <!--Fin Footer-->
 </body>

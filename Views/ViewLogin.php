@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link href="../resources/scss/styles.css" rel="stylesheet" >
-    <link href="../resources/styles/style.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link href="../resources/scss/styles.css" rel="stylesheet" >
+    <link href="../resources/styles/style.css" rel="stylesheet"> -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <!-- CSS de Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- JS de Bootstrap (requiere Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-     <!--Navbar-->
-     <?php
-        require_once('../navbar.php');
-      ?>
-    <!--Fin Navbar-->
+
 
     <div class="container">
 
@@ -24,7 +27,7 @@
 
                     <!--Inicia Logo-->
                     <a href="#" class="d-flex justify-content-center mb-3">
-                        <img src="../resources/img/logo.jpg" alt="" width="60">
+                        <img src="resources/img/logo.jpg" alt="" width="60">
                     </a>
                     <!--Termina Logo-->
 
@@ -65,8 +68,8 @@
                         </div>
                         <div class="input-group mb-2 d-flex justify-content-between">
                             <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="formCheck">
-                                <label for="formCheck" class="form-check-label text-secondary"><small>Recordar</small></label>
+                                <input type="checkbox" class="form-check-input" id="formCheck1">
+                                <label for="formCheck1" class="form-check-label text-secondary"><small>Recordar</small></label>
                             </div>
                             <div>
                                 <small><a href="#">¿Olvidaste tu contraseña?</a></small>
@@ -77,9 +80,11 @@
                     </form>
                     <!--Termina Formulario-->
 
-                    <div class="text-center">
-                        <small>¿No tienes una cuenta?<a href="ViewRegister.html" class="fw-bold"> Registrate</a></small>
-                    </div>
+                    <!-- <div class="text-center">
+                        <small>¿No tienes una cuenta?<a href="Views/ViewRegister.php" class="fw-bold" data-bs-toggle="modal" data-bs-target="#registroModal"> Registrate</a></small>
+                    </div> -->
+
+
 
                 </div>
 
@@ -90,4 +95,5 @@
     </div>
     
 </body>
+
 </html>
