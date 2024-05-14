@@ -1,6 +1,6 @@
 <!--Navbar: Ivanna-->
 <nav class="navbar navbar-expand-lg bg-primary">
-      <div class="container-fluid">
+      <div class="container-fluid m-2">
         <a class="navbar-brand text-light fw-bold" href="index.php"> 
         <img src="resources/img/logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
           DTL
