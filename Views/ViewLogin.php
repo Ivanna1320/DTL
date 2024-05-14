@@ -53,18 +53,18 @@
                     <!--Termina Divisor-->
 
                     <!--Inicia Formulario-->
-                    <form action="#">
+                    <form action="../Model/validar.php" method="post">
                         <div class="input-group mb-2">
                             <span class="input-group-text">
                                 <i class='bx bx-envelope'></i>
                             </span>
-                            <input type="text" class="form-control form-control-lg fs-6" id="inemail" name="inemail" placeholder="Correo">
+                            <input type="text" class="form-control form-control-lg fs-6" id="usuario" name="usuario" placeholder="Usuario">
                         </div>
                         <div class="input-group mb-2">
                             <span class="input-group-text">
                                 <i class='bx bx-lock-alt'></i>
                             </span>
-                            <input type="text" class="form-control form-control-lg fs-6" id="inpassword" name="inpassword" placeholder="Contraseña">
+                            <input type="text" class="form-control form-control-lg fs-6" id="password" name="password" placeholder="Contraseña">
                         </div>
                         <div class="input-group mb-2 d-flex justify-content-between">
                             <div class="form-check">
@@ -75,8 +75,11 @@
                                 <small><a href="#">¿Olvidaste tu contraseña?</a></small>
                             </div>
                         </div>
+                        <input type="submit" value="Ingresar" class="btn btn-primary btn-lg w-100 mb-2">
+                        <!--
                         <a href="User/ViewUser.html" class="btn btn-primary btn-lg w-100 mb-2">Iniciar usuario</a>
                         <a href="Admin/ViewAdmin.html" class="btn btn-primary btn-lg w-100 mb-2">Iniciar admin</a>
+                        -->
                     </form>
                     <!--Termina Formulario-->
 
