@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Publicación</title>
+    <title>Crear Empleo</title>
 
     <link href="../../resources/scss/styles.css" rel="stylesheet" >
     <link href="../../resources/styles/style.css" rel="stylesheet" >
@@ -35,18 +35,18 @@
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-5">
                 <!--Titulos-->
                 
-                <h2>Crear servicios</h2>
-                <p>Puede agregar servicios</p>
+                <h2>Crear empleo</h2>
+                <p>Puede agregar empleos</p>
 
                 <!--Inicia Formulario-->
 
                 <hr class="my-4">
 
                 <div class="col-md-9 col-lg-8">
-                    <form class="needs-validation" action="../../Controller/insert_servicio.php" method="POST" enctype="multipart/form-data">
+                    <form class="needs-validation" action="../../Controller/insert_empleo.php" method="POST" enctype="multipart/form-data">
                         <div class="col-sm mt-4">
                             <label for="firstName" class="form-label">Titulo *</label>
-                            <input type="text" class="form-control" name="titulo" id="firstName" placeholder="Titulo del servicio" value="" required>
+                            <input type="text" class="form-control" name="titulo" id="firstName" placeholder="Titulo del empleo" value="" required>
                             <div class="invalid-feedback">
                                 Valid first name is required.
                             </div>
@@ -54,15 +54,47 @@
 
                         <div class="col-sm mt-4">
                             <label for="lastName" class="form-label">Descripción *</label>
-                            <textarea class="form-control" name="descripcion" placeholder="Descripción del servicio" id="floatingTextarea" required></textarea>                          
+                            <textarea class="form-control" name="descripcion" placeholder="Descripción del empleo" id="floatingTextarea" required></textarea>                          
                             <div class="invalid-feedback">
                                 Valid last name is required.
                             </div>
                         </div>
 
                         <div class="col-sm mt-4">
-                            <label for="lastName" class="form-label">Especificaciones *</label>
-                            <textarea class="form-control" name="especificacion" placeholder="Descripción de los detalles especificos" id="floatingTextarea" required></textarea>                          
+                            <label for="lastName" class="form-label">Responsabilidades Principales *</label>
+                            <textarea class="form-control" name="especificacion" placeholder="Responsabilidades del solicitante" id="floatingTextarea" required></textarea>                          
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm mt-4">
+                            <label for="lastName" class="form-label">Experiencia *</label>
+                            <textarea class="form-control" name="experiencia" placeholder="Experiencia del solicitante" id="floatingTextarea" required></textarea>                          
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm mt-4">
+                            <label for="lastName" class="form-label">Habilidades Técnicas *</label>
+                            <textarea class="form-control" name="htecnicas" placeholder="Habilidades técnicas del solicitante" id="floatingTextarea" required></textarea>                          
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm mt-4">
+                            <label for="lastName" class="form-label">Habilidades Interpersonales *</label>
+                            <textarea class="form-control" name="hpersonales" placeholder="Habilidades blandas del solicitante" id="floatingTextarea" required></textarea>                          
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm mt-4">
+                            <label for="lastName" class="form-label">Competencias Adicionales*</label>
+                            <textarea class="form-control" name="competencias" placeholder="Competencias del solicitante" id="floatingTextarea" required></textarea>                          
                             <div class="invalid-feedback">
                                 Valid last name is required.
                             </div>

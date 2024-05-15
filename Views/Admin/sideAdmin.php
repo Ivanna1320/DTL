@@ -7,25 +7,26 @@
                     <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 ">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                              <a class="nav-link d-flex align-items-center gap-2 active" style="text-decoration: none;" aria-current="page" href="#">
+                              <a class="nav-link d-flex align-items-center gap-2 active" style="text-decoration: none;" aria-current="page" href="ViewAdmin.php">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#house-fill"/></svg>
                                 Dashboard
                               </a>
                             </li>
+                            <!--
                             <li class="nav-item">
                               <a class="nav-link d-flex align-items-center gap-2" href="AddServicio.php" style="text-decoration: none;">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#file-earmark"/></svg>
                                 Crear servicio
                               </a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
-                              <a class="nav-link d-flex align-items-center gap-2" style="text-decoration: none;" href="Servicios.php">
+                              <a class="nav-link d-flex align-items-center gap-2" style="text-decoration: none;" href="TabServicios.php">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#cart"/></svg>
                                 Servicios
                               </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link d-flex align-items-center gap-2" href="#" style="text-decoration: none;">
+                              <a class="nav-link d-flex align-items-center gap-2" href="TabEmpleos.php" style="text-decoration: none;">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#people"/></svg>
                                 Empleos
                               </a>
