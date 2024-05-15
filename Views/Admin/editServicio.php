@@ -1,10 +1,21 @@
+<?php
+include('../../Model/db.php');
+$con = Conexion();
+
+$id=$_GET['id'];
+
+$sql = "SELECT*FROM servicios WHERE id='$id'";
+$query = mysqli_query($con, $sql);
+$row = mysqli_fetch_array($query);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head><script src="../../resources/libs/bootstrap/site/static/docs/5.3/assets/js/color-modes.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Publicación</title>
+    <title>Editar servicio</title>
 
     <link href="../../resources/scss/styles.css" rel="stylesheet" >
     <link href="../../resources/styles/style.css" rel="stylesheet" >
@@ -70,35 +81,19 @@
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-5">
                 <!--Titulos-->
                 
-                <h2>Crear publicación</h2>
-                <p>Puede agregar servicios y empleos</p>
+                <h2>Editar servicios</h2>
+                <p>Puede editar el servicio</p>
 
                 <!--Inicia Formulario-->
 
                 <hr class="my-4">
 
-                <h5 class="mb-3">Tipo de publicación</h4>
-
-                <div class="my-3">
-                    <div class="form-check">
-                        <input id="servicio" name="paymentMethod" type="radio" class="form-check-input" required>
-                        <label class="form-check-label" for="servicio">Servicio</label>
-                    </div>
-                    <div class="form-check">
-                        <input id="empleo" name="paymentMethod" type="radio" class="form-check-input" required>
-                        <label class="form-check-label" for="empleo">Empleo</label>
-                    </div>
-                    <div class="form-check">
-                        <input id="publicacion" name="paymentMethod" type="radio" class="form-check-input" required>
-                        <label class="form-check-label" for="publicacion">Publicación</label>
-                    </div>
-                </div>
-
                 <div class="col-md-9 col-lg-8">
-                    <form class="needs-validation " novalidate>
+                    <form class="needs-validation" action="../../Controller/edit_servicio.php" method="POST" enctype="multipart/form-data">
                         <div class="col-sm mt-4">
+                            <input type="hidden" name="id" value="<?= $row['id'] ?>" >
                             <label for="firstName" class="form-label">Titulo</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="Titulo del servicio o empleo" value="" required>
+                            <input type="text" class="form-control" name="titulo" id="firstName" placeholder="Titulo del servicio" value="<?= $row['titulo'] ?>" required>
                             <div class="invalid-feedback">
                                 Valid first name is required.
                             </div>
@@ -106,7 +101,15 @@
 
                         <div class="col-sm mt-4">
                             <label for="lastName" class="form-label">Descripción</label>
-                            <textarea class="form-control" placeholder="Descripción del servicio o empleo" id="floatingTextarea"></textarea>                          
+                            <textarea class="form-control" name="descripcion" placeholder="Descripción del servicio" id="floatingTextarea" required><?= $row['descripcion'] ?></textarea>                          
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm mt-4">
+                            <label for="lastName" class="form-label">Especificaciones</label>
+                            <textarea class="form-control" name="especificacion" placeholder="Descripción de los detalles especificos" id="floatingTextarea" required><?= $row['especificacion'] ?></textarea>                          
                             <div class="invalid-feedback">
                                 Valid last name is required.
                             </div>
@@ -115,15 +118,21 @@
                         <div class="row g-3 mt-4">
                             <div class="col-12">
                                 <label for="importante" class="form-label">Importante<span class="text-body-secondary">(Optional)</span></label>
-                                <input type="text" class="form-control" id="importante" name="importante" placeholder="Notas importantes">
+                                <input type="text" class="form-control" id="importante" name="importante" value="<?= $row['importante'] ?>" placeholder="Notas importantes">
                             </div>
-                            
                         </div>
 
+                        <div class="col-sm mt-4">
+                            <label for="imagen" class="form-label">Imagen</label>
+                            <input type="file" class="form-control" id="selImg" name="selImg" value="<?= $row['selImg'] ?>">
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
 
                         <hr class="my-4">
 
-                        <button class="w-50 btn btn-primary btn-lg m-3" type="submit">Publicar</button>
+                        <button class="w-50 btn btn-primary btn-lg m-3" type="submit">Editar</button>
                     </form>
                 </div>
                 <!--Termina Formulario-->

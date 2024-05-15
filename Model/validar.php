@@ -4,7 +4,7 @@
     session_start();
     $_SESSION['usuario'] = $usuario;
 
-    include('db.php');
+    $conexion = mysqli_connect("localhost","root","","dbdtl");
 
     $consulta = "SELECT*FROM usuarios where usuario='$usuario' and password='$password'";
     $resultado = mysqli_query($conexion,$consulta);
