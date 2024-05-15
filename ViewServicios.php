@@ -64,7 +64,7 @@ $query = mysqli_query($con, $sql);
                                     <div class="card-body">
                                         <h5 class="card-title"><?= $row['titulo'] ?></h5>
                                         <p class="card-text"><?= substr($row['descripcion'], 0, 110) ?>...</p>
-                                        <p class="card-text"><?= $tiempoTranscurrido ?></p>
+                                        <p class="card-text"><small class="text-body-secondary"><?= $tiempoTranscurrido ?></small></p>
                                         <a href="VerServicio.php?id=<?= $row['id'] ?>" class="btn btn-primary">Ver más</a>
                                     </div>
                                 </div>

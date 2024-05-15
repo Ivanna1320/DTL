@@ -23,7 +23,7 @@ if (move_uploaded_file($_FILES['selImg']['tmp_name'], $rutaArchivo)) {
     $query = mysqli_query($con, $sql);
 
     if ($query) {
-        header("Location: ../Views/Admin/Servicios.php");
+        header("Location: ../Views/Admin/TabServicios.php");
     } else {
         echo "Error al insertar datos: " . mysqli_error($con);
     }
