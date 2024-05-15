@@ -13,13 +13,13 @@
                               </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link d-flex align-items-center gap-2" href="AddPublic.php" style="text-decoration: none;">
+                              <a class="nav-link d-flex align-items-center gap-2" href="AddServicio.php" style="text-decoration: none;">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#file-earmark"/></svg>
-                                Crear publicacion
+                                Crear servicio
                               </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link d-flex align-items-center gap-2" style="text-decoration: none;" href="#">
+                              <a class="nav-link d-flex align-items-center gap-2" style="text-decoration: none;" href="Servicios.php">
                                 <svg class="bi" style="width: 1em; height: 1em;"><use xlink:href="#cart"/></svg>
                                 Servicios
                               </a>
