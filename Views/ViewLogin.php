@@ -64,7 +64,7 @@
                             <span class="input-group-text">
                                 <i class='bx bx-lock-alt'></i>
                             </span>
-                            <input type="text" class="form-control form-control-lg fs-6" id="password" name="password" placeholder="Contraseña">
+                            <input type="text" class="form-control form-control-lg fs-6" id="pass" name="pass" placeholder="Contraseña">
                         </div>
                         <div class="input-group mb-2 d-flex justify-content-between">
                             <div class="form-check">
