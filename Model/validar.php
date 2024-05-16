@@ -1,13 +1,14 @@
 <?php
     $usuario = $_POST['usuario'];
-    $password = $_POST['password'];
+    $pass = $_POST['pass'];
     session_start();
     $_SESSION['usuario'] = $usuario;
 
     $conexion = mysqli_connect("localhost","root","","dbdtl");
 
-    $consulta = "SELECT*FROM usuarios where usuario='$usuario' and password='$password'";
+    $consulta = "SELECT*FROM usuarios where usuario='$usuario' and pass='$pass'";
     $resultado = mysqli_query($conexion,$consulta);
+
 
     //Codigo sin ROLES
     /*
